@@ -1,0 +1,63 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+.container {  
+  width:35%;
+  margin:150px auto;  
+}
+
+header {
+  text-align:center;
+  margin-bottom: 15px;
+}
+
+header img {
+  width: 60%;
+  margin: 15px auto;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: normal;  
+}
+
+section {
+  border-top: 3px double #ccc;
+  border-bottom: 3px double #ccc;
+  padding: 10px 0;    
+}
+
+section p {
+  text-align: justify;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main div {
+  display: inline-block;
+  width: 50%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  display: inline-block;
+  width: 24.5%;
+  /*margin:15px 15px 15px 0;*/
+  /*padding-right:2%;*/  
+}
+article:last-child {
+  /*padding-right: 0;*/
+}
+
+article p {
+  text-align: justify;
+  font-size: 0.7em;
+  padding-right: 15px;
+}
