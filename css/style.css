@@ -1,16 +1,16 @@
 * {
   margin:0;
-  padding:0;
+  padding:0;    
 }
 
 .container {  
   width:35%;
-  margin:150px auto;  
+  margin:150px auto;
+  /*font-size: 0;*/    
 }
 
 header {
-  text-align:center;
-  margin-bottom: 15px;
+  text-align:center;  
 }
 
 header img {
@@ -18,46 +18,44 @@ header img {
   margin: 15px auto;
 }
 
-h1 {
+main {
+  font-size: 0;
+}
+
+h1 {  
   font-size: 4em;
   font-weight: normal;  
+}
+
+i {
+  font-size: 0.7em;
+  font-weight: 1;
+  color: #ccc;
 }
 
 section {
   border-top: 3px double #ccc;
   border-bottom: 3px double #ccc;
-  padding: 10px 0;    
+  padding: 15px 0;
+  margin: 20px 0 30px;  
+  font-size: medium;
 }
 
 section p {
-  text-align: justify;
-}
-
-main {
-  margin: 0;
-  padding: 0;
-}
-
-main div {
-  display: inline-block;
-  width: 50%;
-  height: 50px;
-  margin: 0;
-  padding: 0;
+  text-align: justify;  
 }
 
 article {
   display: inline-block;
-  width: 24.5%;
-  /*margin:15px 15px 15px 0;*/
-  /*padding-right:2%;*/  
+  width: 22%;
+  font-size: medium;  
+  margin-right:4%;  
 }
 article:last-child {
-  /*padding-right: 0;*/
+  margin-right: 0;
 }
 
 article p {
-  text-align: justify;
-  font-size: 0.7em;
-  padding-right: 15px;
+  text-align: left;
+  font-size: 0.7em;  
 }
